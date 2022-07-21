@@ -29,7 +29,6 @@ export async function getServerSideProps(context) {
     }`
   ).then((res) => res.json());
 
-    console.log(request)
   return {
     props:{
       results: request.results,

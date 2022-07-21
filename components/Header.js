@@ -21,10 +21,10 @@ function Header() {
         <HeaderItems title="ACCOUNT" Icon={UserIcon} />
       </div>
       <Image
-        className="object-contain"
-        src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png"
-        width={200}
-        height={100}
+        className="object-contain cursor-pointer"
+        src="/showtime.png"
+        width={240}
+        height={120}
         alt="logo"
       />
     </header>
